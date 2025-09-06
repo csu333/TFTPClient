@@ -1,4 +1,4 @@
-A complete TFTP (Trivial File Transfer Protocol) client library for Arduino ESP32 and other WiFi-enabled Arduino boards. This library allows you to download files from TFTP servers over WiFi. 
+A complete TFTP (Trivial File Transfer Protocol) client library for Arduino ESP32 and other WiFi-enabled Arduino boards. This library allows you to download and upload files from TFTP servers over WiFi. 
 
 TFTP transfer are ideally suited for OTA of systems that spend a lot of time in deep sleep. It does not require complex http server setup as all you need on Linux is:
 ```bash
