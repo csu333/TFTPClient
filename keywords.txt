@@ -1,0 +1,64 @@
+#######################################
+# Syntax Coloring Map For TFTPClient
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+TFTPClient	KEYWORD1
+ProgressCallback	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+initialize	KEYWORD2
+downloadFile	KEYWORD2
+downloadFileWithProgress	KEYWORD2
+beginDownload	KEYWORD2
+readBlock	KEYWORD2
+endDownload	KEYWORD2
+isDownloadActive	KEYWORD2
+isDownloadComplete	KEYWORD2
+getCurrentBlockNumber	KEYWORD2
+getTotalBytesReceived	KEYWORD2
+beginUpload	KEYWORD2
+writeBlock	KEYWORD2
+endUpload	KEYWORD2
+isUploadActive	KEYWORD2
+getCurrentUploadBlockNumber	KEYWORD2
+getTotalBytesSent	KEYWORD2
+available	KEYWORD2
+peek	KEYWORD2
+read	KEYWORD2
+readBytes	KEYWORD2
+write	KEYWORD2
+flush	KEYWORD2
+setMaxRetries	KEYWORD2
+getLastErrorCode	KEYWORD2
+getLastErrorMessage	KEYWORD2
+stop	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+TFTP_RRQ	LITERAL1
+TFTP_WRQ	LITERAL1
+TFTP_DATA	LITERAL1
+TFTP_ACK	LITERAL1
+TFTP_ERROR	LITERAL1
+TFTP_ERR_NOT_DEFINED	LITERAL1
+TFTP_ERR_FILE_NOT_FOUND	LITERAL1
+TFTP_ERR_ACCESS_VIOLATION	LITERAL1
+TFTP_ERR_DISK_FULL	LITERAL1
+TFTP_ERR_ILLEGAL_OPERATION	LITERAL1
+TFTP_ERR_UNKNOWN_TID	LITERAL1
+TFTP_ERR_FILE_EXISTS	LITERAL1
+TFTP_ERR_NO_SUCH_USER	LITERAL1
+TFTP_DEFAULT_PORT	LITERAL1
+TFTP_DATA_SIZE	LITERAL1
+TFTP_PACKET_MAX_SIZE	LITERAL1
+TFTP_TIMEOUT_MS	LITERAL1
+TFTP_MAX_RETRIES	LITERAL1
