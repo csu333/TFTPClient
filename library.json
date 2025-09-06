@@ -1,0 +1,27 @@
+{
+  "name": "TFTPClient",
+  "version": "1.0.1",
+  "description": "A complete TFTP (Trivial File Transfer Protocol) client library for Arduino ESP32 and other WiFi-enabled Arduino boards. This library allows you to download files from TFTP servers over WiFi. ",
+  "keywords": "tftp, client, upload, dowload",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/csu333/TFTPClient.git"
+  },
+  "authors":
+  [
+    {
+      "name": "John Smith",
+      "email": "me@john-smith.com",
+      "url": "https://www.john-smith/contact"
+    },
+    {
+      "name": "Jean-Pierre",
+      "email": "arduino@csu333.be",
+      "maintainer": true
+    }
+  ],
+  "license": "EUPL-1.2",
+  "frameworks": "*",
+  "platforms": "*"
+}
